@@ -1,0 +1,293 @@
+{
+    "chat_response": {
+        "messages": [
+            {
+                "content": "What is the current trend in Rust programming",
+                "additional_kwargs": {},
+                "response_metadata": {},
+                "type": "human",
+                "name": null,
+                "id": "7be85ec3-6efb-4897-92c5-a30e03902290",
+                "example": false
+            },
+            {
+                "content": "",
+                "additional_kwargs": {
+                    "tool_calls": [
+                        {
+                            "id": "call_0MUIpZned6rQoJPldFVvFMLR",
+                            "function": {
+                                "arguments": "{\"query\":\"current trends in Rust programming 2024\"}",
+                                "name": "web_search"
+                            },
+                            "type": "function"
+                        }
+                    ],
+                    "refusal": null
+                },
+                "response_metadata": {
+                    "token_usage": {
+                        "completion_tokens": 21,
+                        "prompt_tokens": 99,
+                        "total_tokens": 120,
+                        "completion_tokens_details": {
+                            "accepted_prediction_tokens": 0,
+                            "audio_tokens": 0,
+                            "reasoning_tokens": 0,
+                            "rejected_prediction_tokens": 0
+                        },
+                        "prompt_tokens_details": {
+                            "audio_tokens": 0,
+                            "cached_tokens": 0
+                        }
+                    },
+                    "model_name": "gpt-4.1-2025-04-14",
+                    "system_fingerprint": "fp_62bb2e3c55",
+                    "id": "chatcmpl-CKo1wG0WBuCxFZaieJ28IFNs7IW4C",
+                    "finish_reason": "tool_calls",
+                    "logprobs": null
+                },
+                "type": "ai",
+                "name": "lead_researcher",
+                "id": "run-62f45e49-32bc-43e1-84b7-c16ec9871114-0",
+                "example": false,
+                "tool_calls": [
+                    {
+                        "name": "web_search",
+                        "args": {
+                            "query": "current trends in Rust programming 2024"
+                        },
+                        "id": "call_0MUIpZned6rQoJPldFVvFMLR",
+                        "type": "tool_call"
+                    }
+                ],
+                "invalid_tool_calls": [],
+                "usage_metadata": {
+                    "input_tokens": 99,
+                    "output_tokens": 21,
+                    "total_tokens": 120,
+                    "input_token_details": {
+                        "audio": 0,
+                        "cache_read": 0
+                    },
+                    "output_token_details": {
+                        "audio": 0,
+                        "reasoning": 0
+                    }
+                }
+            },
+            {
+                "content": "Dec 28, 2024—The Rust programming language madesignificant strides in2024, marking major performance gains and growing industry confidence in memory-safe programming.",
+                "additional_kwargs": {},
+                "response_metadata": {},
+                "type": "tool",
+                "name": "web_search",
+                "id": "c2a7aec9-f33f-443d-b1fa-ab092599761c",
+                "tool_call_id": "call_0MUIpZned6rQoJPldFVvFMLR",
+                "artifact": null,
+                "status": "success"
+            },
+            {
+                "content": "",
+                "additional_kwargs": {
+                    "tool_calls": [
+                        {
+                            "id": "call_a6O9NuxEhnvjGAXRxNCiHKjH",
+                            "function": {
+                                "arguments": "{\"query\":\"most recent developments in Rust programming language\"}",
+                                "name": "web_search"
+                            },
+                            "type": "function"
+                        }
+                    ],
+                    "refusal": null
+                },
+                "response_metadata": {
+                    "token_usage": {
+                        "completion_tokens": 20,
+                        "prompt_tokens": 167,
+                        "total_tokens": 187,
+                        "completion_tokens_details": {
+                            "accepted_prediction_tokens": 0,
+                            "audio_tokens": 0,
+                            "reasoning_tokens": 0,
+                            "rejected_prediction_tokens": 0
+                        },
+                        "prompt_tokens_details": {
+                            "audio_tokens": 0,
+                            "cached_tokens": 0
+                        }
+                    },
+                    "model_name": "gpt-4.1-2025-04-14",
+                    "system_fingerprint": "fp_62bb2e3c55",
+                    "id": "chatcmpl-CKo20jmUSkYwBg0WyN3WVtyzo8av2",
+                    "finish_reason": "tool_calls",
+                    "logprobs": null
+                },
+                "type": "ai",
+                "name": "lead_researcher",
+                "id": "run-4354aaa6-19b3-4f0a-880e-47a540414790-0",
+                "example": false,
+                "tool_calls": [
+                    {
+                        "name": "web_search",
+                        "args": {
+                            "query": "most recent developments in Rust programming language"
+                        },
+                        "id": "call_a6O9NuxEhnvjGAXRxNCiHKjH",
+                        "type": "tool_call"
+                    }
+                ],
+                "invalid_tool_calls": [],
+                "usage_metadata": {
+                    "input_tokens": 167,
+                    "output_tokens": 20,
+                    "total_tokens": 187,
+                    "input_token_details": {
+                        "audio": 0,
+                        "cache_read": 0
+                    },
+                    "output_token_details": {
+                        "audio": 0,
+                        "reasoning": 0
+                    }
+                }
+            },
+            {
+                "content": "Feb. 20, AnnouncingRust 1.85.0and Rust 2024 ; Feb. 13, 2024 State of Rust Survey Results ; Feb. 5, crates.io: development update ; Jan. 30, Announcing Rust 1.84.",
+                "additional_kwargs": {},
+                "response_metadata": {},
+                "type": "tool",
+                "name": "web_search",
+                "id": "c8091939-92bf-434e-a73b-c0ea7cc33bff",
+                "tool_call_id": "call_a6O9NuxEhnvjGAXRxNCiHKjH",
+                "artifact": null,
+                "status": "success"
+            },
+            {
+                "content": "",
+                "additional_kwargs": {
+                    "tool_calls": [
+                        {
+                            "id": "call_BvpwA22VRJ9IIcjnI7ZJkre9",
+                            "function": {
+                                "arguments": "{\"query\":\"popular trends in Rust software development in 2024\"}",
+                                "name": "web_search"
+                            },
+                            "type": "function"
+                        }
+                    ],
+                    "refusal": null
+                },
+                "response_metadata": {
+                    "token_usage": {
+                        "completion_tokens": 23,
+                        "prompt_tokens": 258,
+                        "total_tokens": 281,
+                        "completion_tokens_details": {
+                            "accepted_prediction_tokens": 0,
+                            "audio_tokens": 0,
+                            "reasoning_tokens": 0,
+                            "rejected_prediction_tokens": 0
+                        },
+                        "prompt_tokens_details": {
+                            "audio_tokens": 0,
+                            "cached_tokens": 0
+                        }
+                    },
+                    "model_name": "gpt-4.1-2025-04-14",
+                    "system_fingerprint": "fp_62bb2e3c55",
+                    "id": "chatcmpl-CKo23iLIFthmCuRGeSVxDcfIBuITi",
+                    "finish_reason": "tool_calls",
+                    "logprobs": null
+                },
+                "type": "ai",
+                "name": "lead_researcher",
+                "id": "run-f79f138b-ed1d-4840-bad9-8564a02afd3f-0",
+                "example": false,
+                "tool_calls": [
+                    {
+                        "name": "web_search",
+                        "args": {
+                            "query": "popular trends in Rust software development in 2024"
+                        },
+                        "id": "call_BvpwA22VRJ9IIcjnI7ZJkre9",
+                        "type": "tool_call"
+                    }
+                ],
+                "invalid_tool_calls": [],
+                "usage_metadata": {
+                    "input_tokens": 258,
+                    "output_tokens": 23,
+                    "total_tokens": 281,
+                    "input_token_details": {
+                        "audio": 0,
+                        "cache_read": 0
+                    },
+                    "output_token_details": {
+                        "audio": 0,
+                        "reasoning": 0
+                    }
+                }
+            },
+            {
+                "content": "As applications grow more complex and need to scale, Rust’s ability to manage memory efficiently and perform at high speed makes it a top choice for developers working on performance-critical projects. The 2024 State of Rust survey found that 23% of respondents were using Rust for WebAssembly in the browser, signaling the growing importance of WASM in modern web development. Rust’s safety and performance characteristics make it ideal for embedded systems development. Rust’s unique syntax, memory model, and error handling system can initially be challenging for developers, especially those accustomed to garbage-collected languages like JavaScript or Python. With continuous improvements in the language and its ecosystem, Rust is likely to keep growing and expand into new areas, staying a favorite among developers.",
+                "additional_kwargs": {},
+                "response_metadata": {},
+                "type": "tool",
+                "name": "web_search",
+                "id": "34f2bdf9-463a-4b00-91ea-3694edd8c24a",
+                "tool_call_id": "call_BvpwA22VRJ9IIcjnI7ZJkre9",
+                "artifact": null,
+                "status": "success"
+            },
+            {
+                "content": "- In 2024, Rust is experiencing major performance gains and increased adoption driven by its memory safety features.\n- The release of Rust 1.85.0 and ongoing advancements in the Rust ecosystem mark a period of rapid development.\n- According to the 2024 State of Rust Survey, Rust is increasingly used for WebAssembly (WASM) in browser applications, with 23% of surveyed users employing it for this purpose.\n- Rust remains popular for performance-critical projects, embedded systems, and areas where efficient memory management is crucial.\n- The community highlighted unique Rust features such as its ownership model, borrow checker, advanced error handling, and growing library (crates) ecosystem.\n- As Rust continues to evolve, it is expanding into new application domains while maintaining strong developer interest.",
+                "additional_kwargs": {
+                    "refusal": null
+                },
+                "response_metadata": {
+                    "token_usage": {
+                        "completion_tokens": 158,
+                        "prompt_tokens": 441,
+                        "total_tokens": 599,
+                        "completion_tokens_details": {
+                            "accepted_prediction_tokens": 0,
+                            "audio_tokens": 0,
+                            "reasoning_tokens": 0,
+                            "rejected_prediction_tokens": 0
+                        },
+                        "prompt_tokens_details": {
+                            "audio_tokens": 0,
+                            "cached_tokens": 0
+                        }
+                    },
+                    "model_name": "gpt-4.1-2025-04-14",
+                    "system_fingerprint": "fp_62bb2e3c55",
+                    "id": "chatcmpl-CKo27gHqiyp87yBlJpUQSES3P462r",
+                    "finish_reason": "stop",
+                    "logprobs": null
+                },
+                "type": "ai",
+                "name": "lead_researcher",
+                "id": "run-065d3263-5e6f-4316-96a1-d5fd482e3069-0",
+                "example": false,
+                "tool_calls": [],
+                "invalid_tool_calls": [],
+                "usage_metadata": {
+                    "input_tokens": 441,
+                    "output_tokens": 158,
+                    "total_tokens": 599,
+                    "input_token_details": {
+                        "audio": 0,
+                        "cache_read": 0
+                    },
+                    "output_token_details": {
+                        "audio": 0,
+                        "reasoning": 0
+                    }
+                }
+            }
+        ]
+    }
+}
