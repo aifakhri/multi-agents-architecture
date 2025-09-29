@@ -1,1 +1,1 @@
-from .agents import research_agent
+from .agents import research_agent, math_agent
