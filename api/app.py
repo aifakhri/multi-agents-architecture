@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from dotenv import load_dotenv
 
 
-from agents import lead_agent
+from services import research_agent
 from schema import ChatMessage
 
 load_dotenv()
@@ -28,6 +28,6 @@ async def chat_supervisor(message: ChatMessage):
             ]
         }
 
-    response = lead_agent().stream(user_query)
+    response = research_agent().stream(user_query)
 
     return {"chat_response": response}
