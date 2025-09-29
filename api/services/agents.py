@@ -1,12 +1,11 @@
 from langgraph.prebuilt import create_react_agent
 
-
-
 from tools.search import web_search
 
 
-def lead_agent():
-    lead_researcher = create_react_agent(
+
+def research_agent():
+    agent_object = create_react_agent(
         model="openai:gpt-4.1",
         tools=[web_search],
         prompt=(
@@ -16,7 +15,7 @@ def lead_agent():
             "- After you're done with your tasks, respond to the supervisor directly\n"
             "- Respond ONLY with the results of your work, do NOT include ANY other text."          
         ),
-        name="lead_researcher"
+        name="research_agent"
     )
 
-    return lead_researcher
+    return agent_object
